@@ -1,0 +1,34 @@
+.event_calendar_wrapper {
+  margin: 0 30px;
+
+  > div:first-child {
+    height: 50px;
+  }
+}
+
+.events_wrapper {
+  position: relative;
+  height: inherit;
+}
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  overflow-y: auto;
+  height: 50px;
+}
+
+.badge {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.plus_button {
+  position: absolute;
+  bottom: 5px;
+}
